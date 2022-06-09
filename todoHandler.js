@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 const express = require('express');
-const Todo = require('../schemas/todoSchema');
+const Todo = require('./todoSchema');
 
 const router = express.Router();
 
