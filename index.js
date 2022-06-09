@@ -1,7 +1,7 @@
 /* eslint-disable prettier/prettier */
 const express = require('express');
 const mongoose = require('mongoose');
-const todoHandler = require('./handler/todoHandler');
+const todoHandler = require('./todoHandler');
 
 // creating the express app
 const app = express();
