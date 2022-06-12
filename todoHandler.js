@@ -5,8 +5,8 @@ const Todo = require('./todoSchema');
 const router = express.Router();
 
 // GET all the todos
-router.get('/', async (req, res) => {
-  await Todo.find({})
+router.get('/', (req, res) => {
+  Todo.find({})
     .select({
       _id: 0,
       __v: 0,
